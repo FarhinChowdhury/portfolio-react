@@ -10,17 +10,17 @@ function Navbar() {
         <ul className="nav justify-content-end">
         <li className="nav-item">
             <NavLink className="navbar-brand nav-link" 
-                to="/reactportfolio/" style={{color:"antiquewhite"}}>
+                to="/" style={{color:"antiquewhite"}}>
             About Me
             </NavLink>
         </li>
         <li className="nav-item">
-            <NavLink className=" nav-link" to="/reactportfolio/portfolio/" style={{color:"antiquewhite"}}>
+            <NavLink className=" nav-link" to="/portfolio/" style={{color:"antiquewhite"}}>
             Portfolio
             </NavLink>
         </li>
         <li className="nav-item">
-            <NavLink className="nav-link" to="/reactportfolio/contact/" style={{color:"antiquewhite"}}>
+            <NavLink className="nav-link" to="/contact/" style={{color:"antiquewhite"}}>
             Contact
             </NavLink>
         </li>
